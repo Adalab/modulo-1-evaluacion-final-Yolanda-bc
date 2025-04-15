@@ -3,6 +3,9 @@
   padding: 0;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+h1 {
+  font-size: 50px;
+}
 
 .icon-menu {
   border: solid #0271bc;
@@ -16,7 +19,7 @@
   background-position: center;
 }
 
-.párrafo {
+.parrafo {
   
   text-align: center;
   color: white;
@@ -27,6 +30,8 @@
   flex-direction: column;
   height: 700px;
   line-height: 70px;
+  font-size: 25px;
+
 
 
  
@@ -54,16 +59,38 @@
 h6{
   margin-top: 80px;
   color:#8ccbea ;
+  font-size: 14px;
 }
-
+h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 .section-white{
-  line-height: 50px;
+  line-height: 30px;
   text-align: start;
   margin-left: 20px;
   height: 370px;
+  width: 300px;
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  }
+  .donec {
+    font-size: 20px;
+  }
   
   
-}
+
 h5 {
   border-radius: 50%;
   
@@ -75,6 +102,7 @@ h5 {
     border-radius: 22.5px;
     border: solid 2px #f26002;
     color: #f26002;
+    margin-top:50px;
   }
 .section-blue {
 
@@ -101,6 +129,8 @@ h5 {
   background-color: #304268;
   height: 465px;
   color: white;
+
+  
 }
 .one-text {
   
@@ -117,6 +147,7 @@ h5 {
    
     text-align: center;
     margin-bottom: 50px;
+    font-size: 20px;
   
   }
   .two-text {
@@ -134,6 +165,7 @@ h5 {
    
     text-align: center;
     margin-bottom: 50px;
+    font-size: 20px;
     
   }
   .three-text {
@@ -151,10 +183,11 @@ h5 {
    
     text-align: center;
     margin-bottom: 50px;
-    
+    font-size: 20px;
   }
   .More-reasons {
     margin-top: 100px;
+    font-size: 20px;
   }
   .footer{
     display: flex;
