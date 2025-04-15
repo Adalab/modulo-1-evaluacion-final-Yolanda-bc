@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .icon-menu {
@@ -76,9 +77,14 @@ h5 {
     color: #f26002;
   }
 .section-blue {
-  text-align: center;
+
+  
   background-color: #eff9ff;
   height: 630px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 
 }
 .More-reasons {
@@ -96,3 +102,75 @@ h5 {
   height: 465px;
   color: white;
 }
+.one-text {
+  
+    width: 180px;
+    height: 63px;
+    flex-grow: 0;
+    margin: 1px 2px 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 50px;
+  
+  }
+  .two-text {
+    
+      width: 180px;
+      height: 63px;
+      flex-grow: 0;
+      margin: 1px 2px 0;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000;
+      margin-bottom: 50px;
+    
+  }
+  .three-text {
+    
+      width: 180px;
+      height: 63px;
+      flex-grow: 0;
+      margin: 1px 2px 0;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000;
+      margin-bottom: 50px;
+    
+  }
+  .More-reasons {
+    margin-top: 100px;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    height: 500px;
+    
+
+  }
+  a{
+    color: white;
+  }
+  .rrss {
+    margin-top: 40px;
+  }
+
