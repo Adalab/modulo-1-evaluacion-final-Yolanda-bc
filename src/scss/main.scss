@@ -1,37 +1,98 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .icon-menu {
   border: solid #0271bc;
 }
 
-header {
+.photo {
   background-image: url("../images/cover.jpeg");
-  background-size:cover;
-  height:543px;
-  width: 320px;
+  background-size: cover;
+  height: 543px;
+  
+  background-position: center;
 }
 
-h1 {
-  margin-top: 300px;
+.párrafo {
+  
   text-align: center;
   color: white;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  line-height: 70px;
+
+
+ 
 }
 
-div {
-  text-align: center;
-  color: white;
-}
-
-.ico-scroll {
-  width: 20px;
-  height: 10px;
-  flex-grow: 0;
-  object-fit: contain;
-}
-.button{
-  margin-left:9rem;
-  margin-top: 2rem;
+.button {
+ 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   width: 37px;
   height: 37px;
+  margin-top: 25px;
+}
+
+.ico-scroll {
+  width: 15px;
+  height: 10px;
+  
+}
+
+
+h6{
+  margin-top: 80px;
+  color:#8ccbea ;
+}
+
+.section-white{
+  line-height: 50px;
+  text-align: start;
+  margin-left: 20px;
+  height: 370px;
+  
+  
+}
+h5 {
+  border-radius: 50%;
+  
+}
+.go {
+  
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    color: #f26002;
+  }
+.section-blue {
+  text-align: center;
+  background-color: #eff9ff;
+  height: 630px;
+
+}
+.More-reasons {
+  
+    width: 184px;
+    height: 45px;
+    
+    border-radius: 22.5px;
+    background-color: #f26002;
+    color: white;
+  
+}
+.footer {
+  background-color: #304268;
+  height: 465px;
+  color: white;
 }
