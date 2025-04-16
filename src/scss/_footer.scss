@@ -13,6 +13,58 @@
     background-color: #304268;
     color: white;
     }
+    .option {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .rrss {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
     a {
       color: white;
     }
+    
+    @media (min-width: 768px) {
+      .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 240px;
+        
+        
+        
+        
+      }
+    
+      .info {order: 1;
+        
+        justify-content: space-between;
+        margin-left: 200px;
+   
+    
+  }
+    .rrss { order: 3;
+      margin-right: 200px;
+      
+    
+      
+    }
+    .option {order: 2;
+      margin-right: 200px;
+      margin-bottom: 50px;
+   
+  
+  }
+  
+
+    }
+
+    

@@ -1,7 +1,8 @@
 h1 {
-  
+  font-family: "Roboto Slab", serif;
     margin-top: 250px;
     font-size: 50px;
+    max-width: 14ch
   }
   .icon-menu {
     background-color:  #0271bc;
@@ -24,6 +25,7 @@ h1 {
     height: 100%;
     line-height: 70px;
     font-size: 25px;
+    
   }
   .button {
     background-color: white;
