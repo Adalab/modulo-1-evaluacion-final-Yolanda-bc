@@ -1,0 +1,37 @@
+h1 {
+  
+    margin-top: 250px;
+    font-size: 50px;
+  }
+  .icon-menu {
+    background-color:  #0271bc;
+    border: solid #0271bc;
+    position: fixed;
+  }
+  .photo {
+    background-image: url("../images/cover.jpeg");
+    background-size: cover;
+    height: 543px;
+    background-position: center;
+  }
+  .parrafo {
+   text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    line-height: 70px;
+    font-size: 25px;
+  }
+  .button {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    margin-top: 25px;
+  }
