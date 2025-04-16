@@ -3,17 +3,18 @@ h6{
   margin-top: 80px;
   color:#8ccbea ;
   font-size: 14px;
+  margin-left: 15px;
   
 }
 .title{
-  margin-left: 0;
+  margin-left: 15px;
   margin-top: 1rem;
+  font-family: "Roboto Slab", serif;
 
 }
 .section-white{
   line-height: 40px;
   text-align: start;
-  margin-left: 20px;
   height: 370px;
  
   
@@ -21,6 +22,8 @@ h6{
   .donec {
     font-size: 20px;
     margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
    
     
   }
@@ -31,6 +34,8 @@ h6{
     border: solid 2px #f26002;
     color: #f26002;
     margin-top:50px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
   }
   .section-blue {
     background-color: #eff9ff;
@@ -43,7 +48,9 @@ h6{
 
     }
     
-  
+  h3 {
+    font-family: "Roboto Slab", serif;
+  }
    
   .More-reasons {
     width: 184px;
@@ -52,6 +59,7 @@ h6{
     background-color: #f26002;
     color: white;
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
     }
     .text-block1 {
       width: 180px;
@@ -101,6 +109,7 @@ h6{
           h2{
             font-size: 30px;
             margin-left: 68px;
+            font-family: "Roboto Slab", serif;   
           
           }
           @media (min-width: 768px) {
